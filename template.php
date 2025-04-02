@@ -25,7 +25,7 @@ function parseMarkdown($text) {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a href="index.html" id="home-button">Accueil</a>
+
 
 <?php
 // Chargement du fichier JSON global
@@ -48,6 +48,7 @@ $memoire = json_decode($data, true);
 
 <!-- Conteneur des pages -->
 <div id="content">
+<a href="index.html" id="home-button">Accueil</a>
     <?php
     if ($memoire && isset($memoire["pages"])) {
         foreach ($memoire["pages"] as $pageIndex => $page) {

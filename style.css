@@ -32,7 +32,7 @@ body {
     margin-right: 30px;
 }
 #menu-principal a {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "IBM Plex sans";
     font-size: 1em;
     color: #fff;
     text-decoration: none;
@@ -180,3 +180,76 @@ ol{
 font-size: 0.9em;
 color: var(--dark-main);
 }
+
+
+
+
+
+#home-button {
+    position: fixed;
+    top: 5px;
+    left: 25px;
+    background-color: var(--pink-main);
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    z-index: 9999; /* Assure que le bouton est au-dessus de tout */
+}
+
+#home-button:hover {
+    background-color: rgba(255, 64, 129, 0.8); /* Version plus claire au survol */
+}
+
+
+
+.img_home{
+    margin-left: 45%;
+    width: 50%;
+    height: 50%;
+    min-width: 400px;
+    margin-top: -250px;
+}
+
+
+.image-container {
+    position: relative; /* Conteneur qui permet la superposition */
+    display: inline-block;
+}
+
+
+.titre-principal-home {
+
+    position: absolute;
+    font-family: "IBM Plex sans";
+    
+    top: 19%; /* Positionne le texte au centre de l’image */
+    left: 15%;
+    transform: translate(-20%, -20%); /* Centre précisément le texte */
+    color: var(--pink-main); /* Texte en blanc pour le contraste */
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    }
+
+
+    .titre-secondaire-home {
+
+        position: absolute;
+        font-family: "IBM Plex sans";
+        
+        top: 25%; /* Positionne le texte au centre de l’image */
+        left: 15%;
+        transform: translate(-20%, -20%); /* Centre précisément le texte */
+        color: var(--pink-main); /* Texte en blanc pour le contraste */
+        font-size: 1.3em;
+        font-weight: 300;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 25px;
+        }

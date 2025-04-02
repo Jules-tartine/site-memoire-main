@@ -25,6 +25,8 @@ function parseMarkdown($text) {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<a href="index.html" id="home-button">Accueil</a>
+
 <?php
 // Chargement du fichier JSON global
 $data = file_get_contents("data/memoire.json");
@@ -88,7 +90,7 @@ $memoire = json_decode($data, true);
                             echo "<figure id='".$blocId."'>";
                             echo "<img src='" . $bloc["valeur"] . "' alt='" . $bloc["alt"] . "' />";
                             if(isset($bloc["legende"]) && $bloc["legende"] !== ""){
-                                echo "<figcaption>" . $bloc["legende"] . "</figcaption>";
+                                echo "<figcaption>" . parseMarkdown($bloc["legende"]) . "</figcaption>";
                             }
                             echo "</figure>";
                         }

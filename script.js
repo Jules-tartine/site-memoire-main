@@ -19,4 +19,24 @@ document.addEventListener("DOMContentLoaded", function(){
             }
         });
     });
+
+    const notes = document.querySelectorAll("sup");
+    const aside = document.querySelector("aside");
+    const ol = document.querySelector("aside ol");
+    const li = document.querySelectorAll("aside li");
+    notes.forEach(note => {
+        note.addEventListener("mouseover", function(){
+            const noteValue = this.textContent;
+            const noteToShow = ol.querySelector(`li:nth-child(${noteValue})`);
+            li.forEach(li => {
+                li.classList.add("is-gris");
+            });
+            noteToShow.classList.remove("is-gris");
+        });
+        note.addEventListener("mouseout", function(){
+            li.forEach(li => {
+                li.classList.remove("is-gris");
+            });
+        });
+    }); 
 });

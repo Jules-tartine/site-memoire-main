@@ -91,6 +91,12 @@ body {
 .references li {
     margin-bottom: 20px;
 }
+.references ol li a{
+    color:#000;
+}
+.is-gris{
+    opacity:0.3;
+}
 .ref-index {
     font-weight: bold;
     margin-right: 5px;
@@ -173,6 +179,8 @@ sup{
     padding: 3px;
     line-height: 1em;
 
+    cursor: pointer;
+
 }
 
 
@@ -238,18 +246,65 @@ color: var(--dark-main);
     }
 
 
-    .titre-secondaire-home {
+.titre-secondaire-home {
 
-        position: absolute;
-        font-family: "IBM Plex sans";
-        
-        top: 25%; /* Positionne le texte au centre de l’image */
-        left: 15%;
-        transform: translate(-20%, -20%); /* Centre précisément le texte */
-        color: var(--pink-main); /* Texte en blanc pour le contraste */
-        font-size: 1.3em;
-        font-weight: 300;
-        background-color: #fff;
+    position: absolute;
+    font-family: "IBM Plex sans";
+    
+    top: 25%; /* Positionne le texte au centre de l’image */
+    left: 15%;
+    transform: translate(-20%, -20%); /* Centre précisément le texte */
+    color: var(--pink-main); /* Texte en blanc pour le contraste */
+    font-size: 1.3em;
+    font-weight: 300;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    #menu-principal ul {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    #menu-principal li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    #content {
         padding: 10px;
-        border-radius: 25px;
-        }
+    }
+    .part {
+        grid-template-columns: 1fr;
+    }
+    .references {
+        position: static;
+        padding: 0;
+        border-right: none;
+        border-bottom: 1px solid var(--pink-main);
+    }
+
+    .content {
+        margin-left: 0;
+    }
+    .page-title {
+        margin-left: 0;
+    }
+    .titre-principal-home {
+        font-size: 1.5em;
+        top: 15%;
+        left: 5%;
+    }
+    .titre-secondaire-home {
+        font-size: 1em;
+        top: 20%;
+        left: 5%;
+    }
+    .img_home{
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+        min-width: 200px;
+        margin-top: 0;
+    }
+}

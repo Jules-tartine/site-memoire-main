@@ -24,7 +24,7 @@ body {
 
 #menu-principal {
     position: fixed;
-    top: 0; /* Visible au chargement */
+    top: 0;
     left: 0;
     width: 100%;
     background: var(--pink-main);
@@ -40,6 +40,20 @@ body {
 #menu-principal:not(.visible) {
     transform: translateY(-100%); /* Cache le menu en le décalant vers le haut */
 }
+
+/* La page principale doit se décaler en fonction de la hauteur du menu */
+body {
+    transition: padding-top 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+    /* Vous pouvez aussi ajuster la taille du menu pour les petites écrans */
+    #menu-principal {
+        padding-top: 80px;
+        height: 90px;
+    }
+}
+
 
 
 

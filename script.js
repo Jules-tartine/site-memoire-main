@@ -69,10 +69,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener("DOMContentLoaded", function() {
     const menu = document.getElementById("menu-principal");
+    const body = document.body;
     let lastScrollTop = window.scrollY;
 
     // Affiche le menu dès le début
     menu.classList.add("visible");
+    body.style.paddingTop = `${menu.offsetHeight}px`; // Crée un espace pour le menu
 
     window.addEventListener("scroll", function() {
         let scrollTop = window.scrollY;
@@ -80,11 +82,14 @@ document.addEventListener("DOMContentLoaded", function() {
         if (scrollTop < lastScrollTop) {
             // Si on remonte, on affiche le menu
             menu.classList.add("visible");
+            body.style.paddingTop = `${menu.offsetHeight}px`; // Ajuste l'espace du body
         } else {
             // Si on descend, on cache le menu
             menu.classList.remove("visible");
+            body.style.paddingTop = '0'; // Réduit l'espace en haut
         }
 
         lastScrollTop = scrollTop;
     });
-    });
+});
+

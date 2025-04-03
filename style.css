@@ -21,6 +21,29 @@ body {
     background: var(--pink-main);
     padding: 16px;
 }
+
+#menu-principal {
+    position: fixed;
+    top: 0; /* Visible au chargement */
+    left: 0;
+    width: 100%;
+    background: var(--pink-main);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+#menu-principal.visible {
+    transform: translateY(0); /* Menu affiché */
+}
+
+#menu-principal:not(.visible) {
+    transform: translateY(-100%); /* Cache le menu en le décalant vers le haut */
+}
+
+
+
+
 #menu-principal ul {
     list-style: none;
     margin:0 ;
@@ -37,6 +60,14 @@ body {
     color: #fff;
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+    #menu-principal {
+        padding-top: 80px;
+       height: 90px;
+    }
+}
+
 
 /* Conteneur principal */
 #content {
@@ -213,6 +244,15 @@ color: var(--dark-main);
 }
 
 
+@media screen and (max-width: 600px) {
+    #home-button {
+top: 25px;
+left: 15px;
+    }
+}
+
+
+
 
 .img_home{
     margin-left: 45%;
@@ -223,44 +263,9 @@ color: var(--dark-main);
 }
 
 
-.image-container {
-    position: relative; /* Conteneur qui permet la superposition */
-    display: inline-block;
-}
 
 
-.titre-principal-home {
 
-    position: absolute;
-    font-family: "IBM Plex sans";
-    
-    top: 19%; /* Positionne le texte au centre de l’image */
-    left: 15%;
-    transform: translate(-20%, -20%); /* Centre précisément le texte */
-    color: var(--pink-main); /* Texte en blanc pour le contraste */
-    font-size: 2em;
-    font-weight: bold;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 25px;
-    }
-
-
-.titre-secondaire-home {
-
-    position: absolute;
-    font-family: "IBM Plex sans";
-    
-    top: 25%; /* Positionne le texte au centre de l’image */
-    left: 15%;
-    transform: translate(-20%, -20%); /* Centre précisément le texte */
-    color: var(--pink-main); /* Texte en blanc pour le contraste */
-    font-size: 1.3em;
-    font-weight: 300;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 25px;
-}
 
 @media screen and (max-width: 600px) {
     #menu-principal ul {
@@ -272,7 +277,7 @@ color: var(--dark-main);
         margin-bottom: 10px;
     }
     #content {
-        padding: 10px;
+        padding: 35px;
     }
     .part {
         grid-template-columns: 1fr;
@@ -290,16 +295,7 @@ color: var(--dark-main);
     .page-title {
         margin-left: 0;
     }
-    .titre-principal-home {
-        font-size: 1.5em;
-        top: 15%;
-        left: 5%;
-    }
-    .titre-secondaire-home {
-        font-size: 1em;
-        top: 20%;
-        left: 5%;
-    }
+  
     .img_home{
         margin-left: 0;
         width: 100%;
@@ -308,3 +304,82 @@ color: var(--dark-main);
         margin-top: 0;
     }
 }
+
+
+
+.image-container {
+    position: relative; /* Conteneur qui permet la superposition */
+    display: inline-block;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+.titre-principal-home {
+
+    position: absolute;
+    
+    font-family: "IBM Plex sans";
+    top: 250px; /* Positionne le texte au centre de l’image */
+    left: 120px;
+    
+    color: var(--pink-main); /* Texte en blanc pour le contraste */
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    }
+
+
+.titre-secondaire-home {
+
+    position: absolute;
+    font-family: "IBM Plex sans";
+    
+    top: 315px; /* Positionne le texte au centre de l’image */
+    left: 120px;
+   
+    color: var(--pink-main); /* Texte en blanc pour le contraste */
+    font-size: 1.3em;
+    font-weight: 300;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+.btn-lire-memoire{
+
+    font-family: "IBM Plex sans";
+    font-size: 1.2em;
+     
+}
+
+
+@media screen and (max-width: 1000px) {
+    .titre-principal-home {
+        font-size: 2.5vw; /* Taille du texte en fonction de la largeur de l'écran */
+        top: 25vh; /* 25% de la hauteur de l'écran */
+        left: 10vw; /* 10% de la largeur de l'écran */
+        transform: translate(0, 0); /* Supprime le centrage précédent */
+    }
+
+    .titre-secondaire-home {
+        font-size: 2vw; /* Taille du texte en fonction de la largeur de l'écran */
+        top: 35vh; /* 35% de la hauteur de l'écran */
+        left: 10vw; /* 10% de la largeur de l'écran */
+        transform: translate(0, 0);
+    }
+}
+
+
+
+
+

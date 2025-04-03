@@ -1,4 +1,9 @@
 <?php
+
+
+
+
+
 function parseMarkdown($text) {
     // Convert Markdown links [text](url) to clickable links
     $text = preg_replace('/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/', '<a href="$2" target="_blank">$1</a>', $text);
@@ -12,7 +17,11 @@ function parseMarkdown($text) {
     $text = preg_replace('/\+\+(.*?)\+\+/', '<sup>$1</sup>', $text);
     
     return $text;
+
+
+    
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -65,9 +74,12 @@ $memoire = json_decode($data, true);
                 echo "<article class='part' id='".$partId."'>";
 
                 // Aside sticky pour les références
-                echo "<aside class='references'>";
+                $hasReferences = isset($part["references"]) && is_array($part["references"]) && count($part["references"]) > 0;
+
+                echo "<aside class='references' style='" . ($hasReferences ? "" : "opacity: 0;") . "'>";
                 echo "<h2>Notes</h2>";
-                if (isset($part["references"]) && is_array($part["references"])) {
+                
+                if ($hasReferences) {
                     echo "<ol>"; // Utilisation d'une liste ordonnée pour la numérotation
                     $refIndex = 1;
                     foreach ($part["references"] as $ref) {
@@ -77,6 +89,7 @@ $memoire = json_decode($data, true);
                     }
                     echo "</ol>";
                 }
+                
                 echo "</aside>";
 
                 // Contenu principal de la partie

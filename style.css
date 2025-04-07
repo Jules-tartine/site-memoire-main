@@ -219,6 +219,7 @@ sup{
     height:12px;
     border-radius:12px;
     background: var(--blue-main);
+    opacity: 1;
     display: inline-block;
     text-align: center;
     padding: 3px;

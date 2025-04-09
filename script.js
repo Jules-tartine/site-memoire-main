@@ -91,5 +91,30 @@ document.addEventListener("DOMContentLoaded", function() {
 
         lastScrollTop = scrollTop;
     });
-});
 
+
+
+
+const images  = document.querySelectorAll('figure img');
+ 
+ 
+images.forEach(image => {
+    image.addEventListener('click',function(e){
+        e.preventDefault();
+        const imgUrl = image.getAttribute('src');
+        const fullscreenFigure = document.getElementById('fullscreen');
+        fullscreenFigure.addEventListener('click',function(){
+            fullscreenFigure.classList.remove('is-visible');
+        });
+        const fullscreenImage = fullscreenFigure.querySelector("img");
+        fullscreenImage.setAttribute('src',imgUrl)
+        //
+        fullscreenFigure.classList.add('is-visible');
+        const sY = window.scrollY;
+        fullscreenFigure.style.top = sY +'px';
+        //
+        document.body.style.add('overflow-y','hidden');
+    })
+})
+
+});

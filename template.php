@@ -58,6 +58,9 @@ $memoire = json_decode($data, true);
 <!-- Conteneur des pages -->
 <div id="content">
 <a href="index.html" id="home-button">Accueil</a>
+    <figure id="fullscreen">
+        <img src="" alt="">
+    </figure>
     <?php
     if ($memoire && isset($memoire["pages"])) {
         foreach ($memoire["pages"] as $pageIndex => $page) {

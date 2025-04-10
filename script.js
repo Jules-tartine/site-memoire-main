@@ -7,10 +7,6 @@ document.addEventListener("DOMContentLoaded", function(){
             e.preventDefault();
             const targetPage = this.getAttribute("data-page");
 
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
             // Masquer toutes les pages
             pages.forEach(page => {
                 page.classList.remove("active");
@@ -20,6 +16,10 @@ document.addEventListener("DOMContentLoaded", function(){
             const pageToShow = document.getElementById(targetPage);
             if(pageToShow) {
                 pageToShow.classList.add("active");
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
             }
         });
     });
@@ -164,3 +164,34 @@ images.forEach(image => {
         document.body.style.add('overflow-y','hidden');
     })
 })
+
+document.addEventListener("DOMContentLoaded", function() {
+    const changePartBtns = document.querySelectorAll('.change-part');
+
+    changePartBtns.forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            const currentPart = this.closest('.part');
+            if (!currentPart) return;
+
+            const nextPart = currentPart.nextElementSibling;
+            if (nextPart && nextPart.classList.contains('part')) {
+                // Masquer la partie actuelle
+                currentPart.classList.remove('active-part');
+                // Afficher la partie suivante
+                nextPart.classList.add('active-part');
+                window.scrollTo({ top: 0, behavior: "smooth" }); // change to instant to remove animation
+            } else {
+                // S’il n’y a plus de partie suivante, on passe à la page suivante
+                const currentPage = currentPart.closest('.page');
+                if (!currentPage) return;
+                const nextPage = currentPage.nextElementSibling;
+                if (nextPage && nextPage.classList.contains('page')) {
+                    currentPage.classList.remove('active');
+                    nextPage.classList.add('active');
+                    window.scrollTo({ top: 0, behavior: "smooth" }); // change to instant to remove animation
+                }
+            }
+        });
+    });
+});

@@ -100,7 +100,7 @@
         },
 
 
-        
+
         {
           "title": "Limites Numériques - combattre l’impact écologique dissimulé",
           "references": [
@@ -115,7 +115,7 @@
             {
               "valeur": "Limites Numériques, [*Enquête sur les paramètres mobiles*](https://limitesnumeriques.fr/travaux-productions/enquete-parametres-mobiles) "
             },
-           
+
             {
               "valeur": " Selon l’ADEME, Agence de la transition écologique. \n [Lien de la source](https://infos.ademe.fr/magazine-avril-2022/faits-et-chiffres/numerique-quel-impact-environnemental/)"
             },
@@ -169,7 +169,7 @@
 
         {
           "title": "Méthodologie et enjeux",
-         
+
           "contenu": [
 
             {
@@ -185,15 +185,15 @@
               "type": "texte",
               "valeur": "C’est afin de répondre à ces interrogations que j’ai choisi de saisir le sujet proposé par Limites Numériques, qui avait pour nom “Paramètres écologique”. Ce travail est la synthèse de mes entretiens, expérimentations, tests, et lectures sur le thème du paramètre écologique. Réalisé en partenariat avec Limites Numériques, ce projet mélange expérimentations personnelles et productions communes avec le partenaire de recherche. C’est ce thème dont je me suis emparé pour ce travail de recherche à travers le design."
             },
-            
+
             {
               "type": "texte",
               "valeur": "C’est afin de répondre à ces interrogations que j’ai choisi de saisir le sujet proposé par Limites Numériques, qui avait pour nom “Paramètres écologique”. Ce travail est la synthèse de mes entretiens, expérimentations, tests, et lectures sur le thème du paramètre écologique. Réalisé en partenariat avec Limites Numériques, ce projet mélange expérimentations personnelles et productions communes avec le partenaire de recherche. C’est ce thème dont je me suis emparé pour ce travail de recherche à travers le design."
             },
-            
+
             {
               "type": "texte",
-              "valeur": "<br><br>** [Changer de partie](https://code.com) BTN POUR CHANGER DE PARTIE**"
+              "valeur": "<a href=\"#\" class=\"change-part\">Changer de partie</a>"
             }
 
           ]
@@ -224,8 +224,8 @@
               "type": "texte",
               "valeur": "Étude sur l’interface et de la structure des paramètre"
             },
-           
-           
+
+
             {
               "type": "texte",
               "valeur": "Le paramètre est, dans le cas de ce sujet de recherche, ce qui permet de régler une valeur. Mais réduire la compréhension du terme paramètre à cette définition serait réducteur et incomplet. Comme évoqué précédemment, les paramètres partagent, malgré les marques et OS, une architecture commune. Cette manière de hiérarchiser les contenus prend la forme d’une navigation dite “Drill-down” (cf Fig 5), qui peut se traduire par “interface en profondeur”. Le principe de ce type de navigation est d’avoir, comme son nom l’indique, un système de profondeur entre chaque élément, à travers un système de paliers."
@@ -286,7 +286,7 @@
               "legende": "Fig 8 : Captures d’écrans relatives à la recherche du temps d’écran"
             },
 
-            
+
             {
               "type": "texte",
               "valeur": "Aussi, paradoxalement, l’usager ne peut aucunement “paramétrer les paramètres”. En effet, il n’existe aucun moyen interne aux paramètres pour permettre à l'utilisateur de modifier la hiérarchie et la structure.\n\nTout ceci fait donc des paramètres un espace vaste et complexe, figé. Ce ne sont pas les paramètres qui s’adaptent à l’usager, mais bien l’usager qui “subit” la hiérarchie proposée par son smartphone. Ce “rapport de force” est paradoxal, étant donné que l’application Paramètre est censée permettre à l’usager de modifier son smartphone et faire en sorte qu’il s’adapte à ses désirs. \n\nLe smartphone ne semble pas vouloir être modifié. Comme-ci c'était dans son intérêt de rester le plus “fermé” possible. "
@@ -363,16 +363,16 @@
               "valeur": "Plus l’étape d’usage du smartphone est courte, plus l’utilisateur est amené à acheter un nouveau smartphone. C’est donc dans l'intérêt des fabricants de réduire au maximum, en partie à travers la stratégie du “par défaut” tourné vers la performance, la durée de vie de l’usage, pour inciter à l’achat d’un nouveau smartphone. \n\n Cette démarche d’avoir un état par défaut tourné vers la performance transforme la paramétrisation en un moment de limitation et de restriction, deux notions qui semblent négatives et contraires à la promesse d’un objet surpuissant aux capacités multiples."
             }
 
-            
+
 
           ]
-        }, 
+        },
 
         {
           "title": "Proposition d'un système de classification",
-         
+
           "contenu": [
-            { 
+            {
               "type":"texte",
             "valeur":"Proposition d'un système de classification"
             },
@@ -398,7 +398,7 @@
               "valeur": "Ce système permet donc de classer les éléments et paramètres présents dans l’application, mais il ne permet pas de classer l’impact que ceux-ci peuvent avoir sur le smartphone. Existe-il des paramètres qui permettent de limiter la pollution émise par notre smartphone? Existe-il des “paramètres écologiques” ?"
             }
 
-            
+
 
           ]
         },
@@ -406,7 +406,7 @@
 
         {
           "title": "Introduction au paramètre écologique",
-         
+
 "references" : [
           {
             "valeur": " Dans le cas du paramètre du smartphone. \nLe terme peut signifier d’autres choses dans un secteur/milieu différent."
@@ -445,7 +445,7 @@
 
 
           "contenu": [
-            { 
+            {
               "type":"texte",
             "valeur":"Introduction au paramètre écologique"
             },
@@ -467,7 +467,7 @@
               "type": "texte",
               "valeur": "Comme nous avons pu le voir précédemment, c’est surtout pendant le processus de fabrication que le smartphone va être le plus polluant et néfaste. L’usage peut sembler minime pour ce qui est de l'impact environnemental (20% seulement). Cependant, plus la période d’usage est grande, moins on achète de smartphone. Si la demande pour ce type d’équipement est réduite, l’offre baissera en conséquence. Le paramètre écologique est donc ce qui permet à l’usager de smartphone de réduire les effets de son smartphone, directement, en réduisant les émissions produites par son usage, mais aussi et surtout indirectement, en prolongeant sa durée de vie.\n\nLes notions “d’effets environnementaux directs” et “d’effets environnementaux indirects” sont très importantes dans le cas du paramètre et de son impact environnemental, car il peuvent aider a décrire l’amplitude des impacts environnementaux des supports technologiques. Dans son article intitulé “Les effets environnementaux indirects de la numérisation”++4++, Gauthier Roussilhe différencie les deux notions."
             },
-            
+
             {
               "type": "texte",
               "valeur": "Les “effets environnementaux directs” sont ainsi qualifiés : “l’empreinte environnementale liée à l’extraction de ressources, la fabrication, le transport, l’usage et la fin de vie d’un service numérique et des équipements qui y sont liés”. Comme nous l’avons vu, c’est durant la fabrication du smartphone que l'impact du smartphone pollue le plus. Ce sont donc les effets directs qui ont le plus d’impacts. \n\nLes “effets indirects”, quant à eux, sont plus subtils. Gauthier Roussilhe les définit comme “les effets que produit l’usage du numérique”. Par exemple, les GPS, un dispositif technologique numérique, ont permis d’améliorer l’efficacité de la circulation routière. L’amélioration de la circulation est une conséquence indirecte du GPS, une conséquence de son usage."
@@ -480,7 +480,7 @@
               "legende": "Fig 13 : Tableau réalisé par Gauthier Roussilhe, dans son article “Impact environnemental des usages du numérique en Grand Est. ++5++"
 
             },
-            
+
             {
               "type": "image",
               "valeur": "images/partie_1/p1.12.png",
@@ -517,21 +517,21 @@
 
             {
               "type": "texte",
-              "valeur": "Cette distinction entre “effet direct” et “indirect” soulève une notion capitale pour comprendre le sujet du paramètre : la notion “d’usage”, les effets indirects étant les effets que produit l’usage du numérique. \n\n\n[Changer de partie](https://code.com) BTN POUR CHANGER DE PARTIE**"
+              "valeur": "Cette distinction entre “effet direct” et “indirect” soulève une notion capitale pour comprendre le sujet du paramètre : la notion “d’usage”, les effets indirects étant les effets que produit l’usage du numérique. \n\n<a href=\"#\" class=\"change-part\">Changer de partie</a>"
             }
-    
-           
-            
 
-            
+
+
+
+
 
           ]
         }
 
 
-        
-        
-       
+
+
+
 
 
       ]
@@ -550,7 +550,7 @@
       "id": "page2",
       "title": "2- De l’usage du paramètre vers une pratique de réglage",
       "parts": [
-        
+
         {
           "title": "Réglages et écologie",
           "references": [
@@ -617,7 +617,7 @@
         {
           "title": "Comprendre l’usage actuel des paramètres",
           "references": [
-      
+
             {
               "valeur": "Les entretiens ont été réalisés avec une trentaines de personnes que l'on peut diviser en trois catégories : des élèves/camarades de classe en études supérieures de design, des professionnels dans le milieu du web et des professeurs de lycées généraux. Pour des raisons de pratique et de proximité, les entretiens avec les élèves en études supérieures de design ont été plus longs et complets que pour les autres."
             },
@@ -752,7 +752,7 @@
               "valeur": "Cependant, ce que les différents entretiens montrent est que, dans l’usage actuel des paramètres observés, les usagers suivent plutôt méthodiquement ce qu’impose le smartphone. Les paramètres utilisés sont très souvent issus du centre de contrôle par défaut et ne sont que très rarement des paramètres qui peuvent avoir un impact notable sur l’usage du smartphone : réduire des temps d’application, enlever partiellement les notifications, limiter les capacités de l’écran et la batterie. \n\nL’usager semble donc suivre le chemin que lui propose son smartphone. Un chemin contraire à des valeurs écologiques, qui pousse le smartphone à être utilisé le plus possible et qui encourage le cycle de fabrication et d’obsolescence classique. "
             }
 
-           
+
           ]
         },
 
@@ -797,13 +797,13 @@
               "type": "texte",
               "valeur": "Dans le cas du paramètre, la pratique semble inexistante, ce qui fait que l’usage est uniquement influencé par le contexte du smartphone. L’une des solutions pour remédier à ce problème serait d'arriver de passer d’un usage à une pratique. Arriver à une finalité extérieure, dans notre cas, environnementale, par une action interne d'utilisation du smartphone. Transformer les habitus numériques pour qu’ils s’inspirent d’une pratique écologique."
             }
-           
+
           ]
         },
 
         {
           "title": "Le paramètre écologique : un moyen d’arriver à une pratique de réglage écologique",
-          
+
           "contenu": [
 
             {
@@ -856,18 +856,18 @@
             }
 
 
-           
+
           ]
         }
 
-        
+
 
 
 
       ]
     }
 
-    
+
 
 
 

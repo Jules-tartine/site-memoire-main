@@ -21,24 +21,41 @@ document.addEventListener("DOMContentLoaded", function(){
     });
 
     const notes = document.querySelectorAll("sup");
-    const aside = document.querySelector("aside");
-    const ol = document.querySelector("aside ol");
-    const li = document.querySelectorAll("aside li");
+
     notes.forEach(note => {
-        note.addEventListener("mouseover", function(){
+        note.addEventListener("mouseover", function() {
+            const currentArticle = this.closest("article");
+            if(!currentArticle) return;
+
+            const aside = currentArticle.querySelector("aside");
+            if(!aside) return;
+
+            const ol = aside.querySelector("ol");
+            if(!ol) return;
+
+            const liElements = aside.querySelectorAll("li");
+            if(!liElements) return;
+
             const noteValue = this.textContent;
             const noteToShow = ol.querySelector(`li:nth-child(${noteValue})`);
-            li.forEach(li => {
-                li.classList.add("is-gris");
-            });
-            noteToShow.classList.remove("is-gris");
+
+            liElements.forEach(li => li.classList.add("is-gris"));
+            if(noteToShow) noteToShow.classList.remove("is-gris");
         });
-        note.addEventListener("mouseout", function(){
-            li.forEach(li => {
-                li.classList.remove("is-gris");
-            });
+
+        note.addEventListener("mouseout", function() {
+            const currentArticle = this.closest("article");
+            if(!currentArticle) return;
+
+            const aside = currentArticle.querySelector("aside");
+            if(!aside) return;
+
+            const liElements = aside.querySelectorAll("li");
+            if(!liElements) return;
+
+            liElements.forEach(li => li.classList.remove("is-gris"));
         });
-    }); 
+    });
 });
 
 
@@ -115,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.body.style.add('overflow-y','hidden');
         })
 })
-    
+
 
 });
 
@@ -123,8 +140,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 const images  = document.querySelectorAll('figure img');
- 
- 
+
+
 images.forEach(image => {
     image.addEventListener('click',function(e){
         e.preventDefault();

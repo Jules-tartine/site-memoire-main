@@ -232,8 +232,8 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--dark-main);
     font-size: 18px;
-    line-height: 1.3; 
-    
+    line-height: 1.3;
+
     /* Évite les veuves et orphelines */
     widows: 1;
     orphans: 1;
@@ -255,7 +255,7 @@ p span.nowrap {
     font-weight: bold;
     font-size: 1.5em;
     color: var(--blue-main);
-    
+
 }
 
 
@@ -309,7 +309,7 @@ color: var(--dark-main);
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     #home-button {
 top: 25px;
 left: 15px;
@@ -332,7 +332,7 @@ left: 15px;
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     #menu-principal ul {
         flex-direction: column;
         margin-left: 0;
@@ -360,7 +360,7 @@ left: 15px;
     .page-title {
         margin-left: 0;
     }
-  
+
     .img_home{
         margin-left: 0;
         width: 100%;
@@ -389,11 +389,11 @@ left: 15px;
 .titre-principal-home {
 
     position: absolute;
-    
+
     font-family: "IBM Plex sans";
     top: 250px; /* Positionne le texte au centre de l’image */
     left: 120px;
-    
+
     color: var(--pink-main); /* Texte en blanc pour le contraste */
     font-size: 2em;
     font-weight: bold;
@@ -407,10 +407,10 @@ left: 15px;
 
     position: absolute;
     font-family: "IBM Plex sans";
-    
+
     top: 315px; /* Positionne le texte au centre de l’image */
     left: 120px;
-   
+
     color: var(--pink-main); /* Texte en blanc pour le contraste */
     font-size: 1.3em;
     font-weight: 300;
@@ -424,7 +424,7 @@ left: 15px;
 
     font-family: "IBM Plex sans";
     font-size: 1.2em;
-     
+
 }
 
 
@@ -441,6 +441,37 @@ left: 15px;
         top: 35vh; /* 35% de la hauteur de l'écran */
         left: 10vw; /* 10% de la largeur de l'écran */
         transform: translate(0, 0);
+    }
+}
+.desktop-only {
+    display: block;
+}
+@media screen and (max-width: 800px) {
+    .desktop-only {
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    .titre-principal-home {
+        font-size: 5vw;
+        top: 30vh;
+        left: 5vw;
+        padding: 8px 12px;
+        max-width: 90%;
+    }
+
+    .titre-secondaire-home {
+        font-size: 4vw;
+        top: 38vh;
+        left: 5vw;
+        padding: 8px 12px;
+        max-width: 90%;
+    }
+
+    .btn-lire-memoire {
+        display: inline-block;
+        font-size: 3.8vw;
+        margin-top: 8px;
     }
 }
 

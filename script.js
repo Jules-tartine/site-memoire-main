@@ -7,6 +7,10 @@ document.addEventListener("DOMContentLoaded", function(){
             e.preventDefault();
             const targetPage = this.getAttribute("data-page");
 
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
             // Masquer toutes les pages
             pages.forEach(page => {
                 page.classList.remove("active");

@@ -13,8 +13,27 @@
   "title": "2- De l’usage du paramètre vers une pratique de réglage",
   "pageId":"page2"
 
-    }
+    },
+
+    {
+      "title": "3- Alternatives de paramètres écologiques",
+      "pageId":"page3"
+    
+        },
+
+        {
+          "title": "Conclusion",
+          "pageId":"page4"
+        
+            }     
+
+
   ],
+
+  
+
+
+
   "pages": [
     {
       "id": "page0",
@@ -102,7 +121,7 @@
 
 
         {
-          "title": "Limites Numériques - combattre l’impact écologique dissimulé",
+          "title": "*Limites Numériques* - combattre l’impact écologique dissimulé",
           "references": [
 
  {
@@ -110,10 +129,10 @@
             },
 
             {
-              "valeur": "[Limites Numériques](https://limitesnumeriques.fr/)"
+              "valeur": "[*Limites Numériques*](https://limitesnumeriques.fr/)"
             },
             {
-              "valeur": "Limites Numériques, [*Enquête sur les paramètres mobiles*](https://limitesnumeriques.fr/travaux-productions/enquete-parametres-mobiles) "
+              "valeur": "*Limites Numériques*, [*Enquête sur les paramètres mobiles*](https://limitesnumeriques.fr/travaux-productions/enquete-parametres-mobiles) "
             },
 
             {
@@ -131,7 +150,7 @@
 
             {
               "type": "texte",
-              "valeur": "Limites Numériques - combattre l’impact écologique dissimulé"
+              "valeur": "*Limites Numériques* - combattre l’impact écologique dissimulé"
             },
 
             {
@@ -147,18 +166,18 @@
 
             {
               "type": "texte",
-              "valeur": "Invisible mais impactant, grandissant dans l’ombre, le problème de la pollution numérique++1++ est d’actualité. Face à ce défi écologique, certains comme le projet collectif Limites Numériques, portent leurs voix : “Nous nous intéressons aux choix de conception, aux usages et aux fonctions d’un numérique s’inscrivant dans les limites planétaires”.++2++ \n \nLimites Numériques est un collectif-projet de recherche, “entre design et informatique”. Leur principal sujet d’étude est l’impact environnemental du numérique. Leurs recherches et productions, prenant forme sous différents supports ; ateliers, enquêtes, articles, cahier d’idées … ont donc un ADN commun : comprendre, faire comprendre et lutter contre la pollution numérique."
+              "valeur": "Invisible mais impactant, grandissant dans l’ombre, le problème de la pollution numérique++1++ est d’actualité. Face à ce défi écologique, certains comme le projet collectif *Limites Numériques*, portent leurs voix : “Nous nous intéressons aux choix de conception, aux usages et aux fonctions d’un numérique s’inscrivant dans les limites planétaires”.++2++ \n \n*Limites Numériques* est un collectif-projet de recherche, “entre design et informatique”. Leur principal sujet d’étude est l’impact environnemental du numérique. Leurs recherches et productions, prenant forme sous différents supports ; ateliers, enquêtes, articles, cahier d’idées … ont donc un ADN commun : comprendre, faire comprendre et lutter contre la pollution numérique."
             },
             {
               "type": "image",
               "valeur": "images/intro/img-intro-4.png",
               "alt": "Photographie des différents membre de Limites Numériques",
-              "legende": "Fig 4 : Le collectif Limites Numériques, composé de 6 membre : <br><br> Nolwenn Maudet, designer d’interaction et enseignante chercheuse à l’Université de Strasbourg <br> Aurélien Tabard, enseignant chercheur à l’Université Lyon 1 <br> Thomas Thibault, designer numérique <br> Anaëlle Beignon, doctorante en Design à l’Université de Strasbourg et autrice d’une thèse sur les effets rebond du numérique <br> Léa Mosesso, designer d'interactions et chercheuse en Design <br> Edlira Nano, doctorante en informatique à l'Université Lyon 1 et autrice d’une thèse sur l'obsolescence numérique. "
+              "legende": "Fig 4 : Le collectif *Limites Numériques*, composé de 6 membre : <br><br> Nolwenn Maudet, designer d’interaction et enseignante chercheuse à l’Université de Strasbourg <br> Aurélien Tabard, enseignant chercheur à l’Université Lyon 1 <br> Thomas Thibault, designer numérique <br> Anaëlle Beignon, doctorante en Design à l’Université de Strasbourg et autrice d’une thèse sur les effets rebond du numérique <br> Léa Mosesso, designer d'interactions et chercheuse en Design <br> Edlira Nano, doctorante en informatique à l'Université Lyon 1 et autrice d’une thèse sur l'obsolescence numérique. "
             },
 
             {
               "type": "texte",
-              "valeur": "Dans un souci de rendre le monde du numérique plus acceptable écologiquement, Limites Numériques avait commencé un travail d’enquête sur les paramètres mobiles avec cette question-ci :“Comment les applications mobiles nous permettent, ou non, d’avoir la main sur ce qu’elles calculent, les données qu’elles envoient ou l’orientation de nos usages ? et comment in fine cultiver une pratique plus écologique du numérique ?”.++3++ \n \nEn effet, le numérique produit 2.5%++4++ de l’empreinte carbone française. Ce chiffre est déjà élevé, mais il demeure bien en-dessous de la réalité à l’échelle mondiale à cause de la décentralisation de la production. Cette phase d’extraction des métaux rares et de fabrication est responsable à 80% des émissions produites pour le cycle de vie du smartphone. Et c’est ici que se trouve un des principaux problèmes de la pollution numérique : l’insensibilité."
+              "valeur": "Dans un souci de rendre le monde du numérique plus acceptable écologiquement, *Limites Numériques* avait commencé un travail d’enquête sur les paramètres mobiles avec cette question-ci :“Comment les applications mobiles nous permettent, ou non, d’avoir la main sur ce qu’elles calculent, les données qu’elles envoient ou l’orientation de nos usages ? et comment in fine cultiver une pratique plus écologique du numérique ?”.++3++ \n \nEn effet, le numérique produit 2.5%++4++ de l’empreinte carbone française. Ce chiffre est déjà élevé, mais il demeure bien en-dessous de la réalité à l’échelle mondiale à cause de la décentralisation de la production. Cette phase d’extraction des métaux rares et de fabrication est responsable à 80% des émissions produites pour le cycle de vie du smartphone. Et c’est ici que se trouve un des principaux problèmes de la pollution numérique : l’insensibilité."
             },
             {
               "type": "texte",
@@ -179,16 +198,11 @@
 
             {
               "type": "texte",
-              "valeur": "Cette recherche-action s'inscrit donc dans la continuité des travaux engagés par Limites Numériques sur la notion de paramétrage. Nous nous intéresserons donc à la relation aux usages des utilisateurs de smartphone et à la création d’une pratique écologique. Comment faire pour diminuer l’impact environnemental du smartphone grâce aux paramètres et à la pratique de réglage ? Comment les paramètres peuvent-ils avoir un impact concret ? Comment donner de l’importance à une pratique écologique ?"
+              "valeur": "Cette recherche-action s'inscrit donc dans la continuité des travaux engagés par *Limites Numériques* sur la notion de paramétrage. Nous nous intéresserons donc à la relation aux usages des utilisateurs de smartphone et à la création d’une pratique écologique. Comment faire pour diminuer l’impact environnemental du smartphone grâce aux paramètres et à la pratique de réglage ? Comment les paramètres peuvent-ils avoir un impact concret ? Comment donner de l’importance à une pratique écologique ?"
             },
             {
               "type": "texte",
-              "valeur": "C’est afin de répondre à ces interrogations que j’ai choisi de saisir le sujet proposé par Limites Numériques, qui avait pour nom “Paramètres écologique”. Ce travail est la synthèse de mes entretiens, expérimentations, tests, et lectures sur le thème du paramètre écologique. Réalisé en partenariat avec Limites Numériques, ce projet mélange expérimentations personnelles et productions communes avec le partenaire de recherche. C’est ce thème dont je me suis emparé pour ce travail de recherche à travers le design."
-            },
-
-            {
-              "type": "texte",
-              "valeur": "C’est afin de répondre à ces interrogations que j’ai choisi de saisir le sujet proposé par Limites Numériques, qui avait pour nom “Paramètres écologique”. Ce travail est la synthèse de mes entretiens, expérimentations, tests, et lectures sur le thème du paramètre écologique. Réalisé en partenariat avec Limites Numériques, ce projet mélange expérimentations personnelles et productions communes avec le partenaire de recherche. C’est ce thème dont je me suis emparé pour ce travail de recherche à travers le design."
+              "valeur": "C’est afin de répondre à ces interrogations que j’ai choisi de saisir le sujet proposé par *Limites Numériques*, qui avait pour nom “Paramètres écologique”. Ce travail est la synthèse de mes entretiens, expérimentations, tests, et lectures sur le thème du paramètre écologique. Réalisé en partenariat avec *Limites Numériques*, ce projet mélange expérimentations personnelles et productions communes avec le partenaire de recherche. C’est ce thème dont je me suis emparé pour ce travail de recherche à travers le design."
             },
 
             {
@@ -307,7 +321,7 @@
             },
 
             {
-              "valeur": "Limites Numériques \n[Lien de la source](https://limitesnumeriques.fr/travaux-productions/enquete-parametres-mobiles/insoucis-ecologique)"
+              "valeur": "*Limites Numériques* \n[Lien de la source](https://limitesnumeriques.fr/travaux-productions/enquete-parametres-mobiles/insoucis-ecologique)"
             }
 
           ],
@@ -348,7 +362,7 @@
 
             {
               "type": "texte",
-              "valeur": "Dans l’article “L’insoucis écologique dans les paramètres des smartphones”++3++ Limites Numériques “constate que l’option par défaut est toujours celle qui s’inscrit dans un numérique toujours plus performant, plus consommateur en énergie, en données etc. On peut expliquer ce choix par le souci pour les concepteurs de montrer le meilleur d’une application, d’une technologie, d’un matériel ou d’un contenu.”Le smartphone est donc, sans modification de l’utilisateur, toujours au maximum de ses capacités et de ses performances, au détriment de la “santé” de la batterie et sans jamais vraiment s’ajuster aux besoins des utilisateurs. Les logiciels à 100% consomment plus d’énergie que s’ils étaient à 50%. Un constat simple, logique, mais qui fait une grande différence. Le “par défaut” n’est donc pas un état voué à durer dans le temps, mais voué à performer. Et cette logique d’avoir un objet ultra-performant mais pendant seulement quelque temps renforce le cycle classique de vie du smartphone. "
+              "valeur": "Dans l’article “L’insoucis écologique dans les paramètres des smartphones”++3++ *Limites Numériques* “constate que l’option par défaut est toujours celle qui s’inscrit dans un numérique toujours plus performant, plus consommateur en énergie, en données etc. On peut expliquer ce choix par le souci pour les concepteurs de montrer le meilleur d’une application, d’une technologie, d’un matériel ou d’un contenu.”Le smartphone est donc, sans modification de l’utilisateur, toujours au maximum de ses capacités et de ses performances, au détriment de la “santé” de la batterie et sans jamais vraiment s’ajuster aux besoins des utilisateurs. Les logiciels à 100% consomment plus d’énergie que s’ils étaient à 50%. Un constat simple, logique, mais qui fait une grande différence. Le “par défaut” n’est donc pas un état voué à durer dans le temps, mais voué à performer. Et cette logique d’avoir un objet ultra-performant mais pendant seulement quelque temps renforce le cycle classique de vie du smartphone. "
             },
 
             {
@@ -417,7 +431,7 @@
           },
 
           {
-            "valeur": "Limites Numériques, *L’insoucis écologique dans les paramètres des smartphones* \n [Lien de la source](https://limitesnumeriques.fr/travaux-productions/enquete-parametres-mobiles/insoucis-ecologique)"
+            "valeur": "*Limites Numériques*, *L’insoucis écologique dans les paramètres des smartphones* \n [Lien de la source](https://limitesnumeriques.fr/travaux-productions/enquete-parametres-mobiles/insoucis-ecologique)"
           },
 
           {
@@ -433,7 +447,7 @@
           },
 
           {
-            "valeur": " Anaëlle Beignon, membre de Limites Numériques, doctorante ayant réalisé sa thèse sur les effets rebond des outils de collaboration numérique. Citation issue d’une discussion à propos des effets rebond du numérique. "
+            "valeur": " Anaëlle Beignon, membre de *Limites Numériques*, doctorante ayant réalisé sa thèse sur les effets rebond des outils de collaboration numérique. Citation issue d’une discussion à propos des effets rebond du numérique. "
           }
 
 
@@ -452,7 +466,7 @@
 
             {
               "type": "texte",
-              "valeur": "Le “paramètre écologique” est un terme issu des travaux de Limites Numériques++1++. On peut le définir, pour l’instant++2++, comme un paramètre qui va réduire l’impact environnemental du smartphone. Cette réduction de l’impact environnemental peut se faire selon deux prismes principaux : Par la limitation technique : grâce aux paramètres écologiques, mon smartphone est moins énergivore, et par l’augmentation de la durée de vie du smartphone : \ngrâce aux paramètres écologiques, mon smartphone dure plus longtemps\n\nIl n’existe pas de réel paramètre écologique dans les OS actuels. Et même si certains peuvent avoir une finalité qui réduit l’impact qu’a le smartphone, ce n’est jamais leur vocation principale. On observe, pour reprendre les mots de Limites Numériques, une “absence d’intention écologique dans la paramétrisation”++3++  Les paramètres étant, comme nous l'avons évoqué, présentés sous le prisme de la performance, de la capacité. Une option, telle que l’économie de batterie par exemple, un paramètre qui permet d’augmenter la durée de la batterie en réduisant la consommation d’énergie, n’est pas présentée comme un moyen de préserver l’état de la batterie, mais comme un moyen de plus profiter de son smartphone.."
+              "valeur": "Le “paramètre écologique” est un terme issu des travaux de *Limites Numériques*++1++. On peut le définir, pour l’instant++2++, comme un paramètre qui va réduire l’impact environnemental du smartphone. Cette réduction de l’impact environnemental peut se faire selon deux prismes principaux : Par la limitation technique : grâce aux paramètres écologiques, mon smartphone est moins énergivore, et par l’augmentation de la durée de vie du smartphone : \ngrâce aux paramètres écologiques, mon smartphone dure plus longtemps\n\nIl n’existe pas de réel paramètre écologique dans les OS actuels. Et même si certains peuvent avoir une finalité qui réduit l’impact qu’a le smartphone, ce n’est jamais leur vocation principale. On observe, pour reprendre les mots de *Limites Numériques*, une “absence d’intention écologique dans la paramétrisation”++3++  Les paramètres étant, comme nous l'avons évoqué, présentés sous le prisme de la performance, de la capacité. Une option, telle que l’économie de batterie par exemple, un paramètre qui permet d’augmenter la durée de la batterie en réduisant la consommation d’énergie, n’est pas présentée comme un moyen de préserver l’état de la batterie, mais comme un moyen de plus profiter de son smartphone.."
             },
 
             {
@@ -552,7 +566,7 @@
       "parts": [
 
         {
-          "title": "Réglages et écologie",
+          "title": "L'usage des paramètres",
           "references": [
             {
               "valeur": "CLOT, Nathalie. (2019). *L’invention du quotidien*. HAL Open Science. Reprend les mots de Michel De Certeau, dans *L’invention du quotidien.* DE CERTEAU, Michel. (1990). *L’invention du quotidien.* Édition Gallimard. "
@@ -573,7 +587,7 @@
 
             {
               "type": "texte",
-              "valeur": "2.1 - L'usage des paramètres"
+              "valeur": "- L'usage des paramètres"
             },
 
             {
@@ -643,7 +657,7 @@
 
             {
               "type": "texte",
-              "valeur": "« Dans le but de comprendre quel est l’usage des utilisateurs de smartphones de leur téléphone portable, j’ai commencé par réaliser une série d’entretiens++1++. Ces données, croisées avec les informations obtenues par Limites Numériques lors de leurs recherches, m’ont permis de cartographier les paramètres les plus utilisés, afin de comprendre au maximum quel est l’usage actuel des paramètres. En réalité, ce tableau ne représente pas réellement l’utilisation des paramètres, mais plutôt la perception qu'ont les usagers du smartphone de leur propre utilisation."
+              "valeur": "« Dans le but de comprendre quel est l’usage des utilisateurs de smartphones de leur téléphone portable, j’ai commencé par réaliser une série d’entretiens++1++. Ces données, croisées avec les informations obtenues par *Limites Numériques* lors de leurs recherches, m’ont permis de cartographier les paramètres les plus utilisés, afin de comprendre au maximum quel est l’usage actuel des paramètres. En réalité, ce tableau ne représente pas réellement l’utilisation des paramètres, mais plutôt la perception qu'ont les usagers du smartphone de leur propre utilisation."
             },
 
             {
@@ -757,7 +771,7 @@
         },
 
         {
-          "title": "2.2 - La pratique du réglage écologique",
+          "title": "La pratique du réglage écologique",
           "references": [
             {
               "valeur": "SIMONDON, Gilbert. (1967). Gilbert Simondon sur les objets techniques «ouverts» et «fermés». \n[Lien de la vidéo](https://www.youtube.com/watch?v=ScotWBb6ROo&list=LL&index=8) "
@@ -853,6 +867,11 @@
             {
               "type": "texte",
               "valeur": "Le réglage semble donc être une pratique qui ne peut pas avoir de sens si elle diffère de la compréhension de l’usager. C’est pourquoi la pédagogie est, dans notre cas, quelque chose de nécessaire. Un usager ne peut pas, de son plein gré, avoir une pratique qu’il ne comprend pas et ne trouve pas “intelligente”. La pratique de réglage doit être désirée pour que celle-ci ait du sens. \n\nLe réglage, ou plutôt la pratique de réglage, peut permettre de réduire l’impact environnemental du smartphone de manière concrète et non négligeable. Là où le paramètre semble limité aux changements techniques du smartphone, le réglage permet d’impacter le smartphone en dehors de ces considérations techniques. \n\nLe paramètre écologique ne doit pas être pensé comme une finalité. Pour avoir un impact notable, il doit être considéré comme un moyen. Un moyen d’amener à une pratique de réglage écologique. Le paramètre écologique va donc instruire l’utilisateur et créer une pratique écologique applicable du smartphone."
+            },
+
+            {
+              "type": "texte",
+              "valeur": "<a href=\"#\" class=\"change-part\">Changer de partie</a>"
             }
 
 
@@ -860,9 +879,257 @@
           ]
         }
 
+        
 
 
 
+
+
+      ]
+    },
+
+    {
+      "id": "page3",
+      "title": "3-Alternatives de paramètres écologiques",
+      "parts": [
+
+        {
+          "title": "3-Alternatives de paramètres écologiques",
+          "references": [
+            {
+              "valeur":" *Limites Numériques*. (2023). Pistes pour un design écologique des paramètres. \n[Source de l'article](https://limitesnumeriques.fr/travaux-productions/design-ecolo-parametres) "     
+            },
+
+            {
+              "valeur":" Ibid"     
+            }
+          ],
+          "contenu": [
+
+            {
+              "type": "texte",
+              "valeur": "Créer les pratiques d’un paramétrage écologique"
+            },
+
+            {
+              "type": "texte",
+              "valeur": "Avec l'équipe de *Limites Numériques* nous avons identifié différentes hypothèses ayant pour objectif de permettre une pratique de réglage écologique, par la logique de paramétrisation.\n\nCertaines de ces pistes créatives s’inscrivent dans le prolongement du travail déjà initié par *Limites Numériques*, publié dans un article intitulé “Pistes pour un design écologique des paramètres”++1++. Ce cahier d’idées propose 10 axes de réflexion, “10 principes de conception pour des paramètres écologiques”++2++.\n\nAfin de rester  cohérent avec le concept du paramétrage écologique, les pistes doivent répondre à plusieurs critères et respecter deux attendus majeurs. "
+            },
+
+            {
+              "type": "texte",
+              "valeur": "Dans un premier temps, les pistes doivent être sources d’apprentissage. Qu’il s’agisse de l’apprentissage du numérique, du smartphone, des enjeux écologiques ou encore des raisons d’adopter une pratique écologique, l’utilisateur doit comprendre. Le changement ne peut opérer que si celui-ci est désiré et compris. Ces solutions doivent donc permettre cet apprentissage et initier une pédagogie du réglage écologique.\n\nDe plus, les pistes créatives doivent proposer des solutions applicables par l’utilisateur du smartphone. Ces solutions au paramètre écologique ne sont pas uniquement des moyens de prévention, mais aussi des moyens d’action. L’utilisateur doit pouvoir apprendre et agir, toujours en restant dans une démarche de paramétrisation et de réglage."
+            }
+          ]
+        },
+
+        {
+          "title": "3.1- Créer et réfléchir à un nouveau “par défaut”",
+          "references": [
+            {
+              "valeur":" Piste présente sous le nom “Repenser le par défaut”.  *Limites Numériques*. (2023). Pistes pour un design écologique des paramètres. [Source de l'article](https://limitesnumeriques.fr/travaux-productions/design-ecolo-parametres) "
+             },
+
+             {
+              "valeur":"  Dans le contexte d’une application, on peut définir l’onboarding comme la période d’accompagnement initial de l’utilisateur qui découvre cette nouvelle application. L’onboarding est donc le premier contact avec l’application."
+             }
+          ],
+          "contenu": [
+
+            {
+              "type": "texte",
+              "valeur": "3.1- Créer et réfléchir à un nouveau “par défaut”"
+            },
+
+            {
+              "type": "texte",
+              "valeur": "Durant ce travail de recherche, nous avons pu observer que les valeurs “par défaut” sont problématiques par rapport à l’impact environnemental du smartphone. Orienté vers un objectif de performance, le “par défaut” accélère l'obsolescence du smartphone et la sollicitation du cycle de fabrication. Cette piste, issue du cahier d’idées de *Limites Numériques*++1++ a pour objectif de questionner la valeur du “par défaut” et de créer une nouvelle alternative. "
+            },
+
+    
+
+            {
+              "type": "image",
+              "valeur": "images/partie_3/p3.1.png",
+              "alt": " Tableau synthétique des pistes “par défaut”, divisé en trois entrées : “Onboarding”, “Descendant” et “Construction”",
+              "legende": " Fig. 24 : Tableau synthétique des pistes “par défaut”, divisé en trois entrées : “Onboarding”, “Descendant” et “Construction”. Réalisation personnelle. [Lien vers le talbleau](https://www.figma.com/design/1EPcsO9Q2aJuQQTo5Y2H3b/D.S-Pistes-Cr%C3%A9a.?node-id=176-9&t=aIcC5rfW7vvT8td4-1)"
+            },
+
+            {
+              "type": "texte",
+              "valeur": "L’entrée “Onboarding” propose de reprendre et de repenser l’onboarding++2++ classique des paramètres pour en faire un moment de pédagogie et de paramétrisation. Divisée en plusieurs temps, cette piste propose de scinder l’apprentissage en plusieurs modules qui mêleront l’apprentissage technique et écologique ainsi que la paramétrisation du smartphone. \n\nLe “par défaut descendant” est une entrée qui propose d’inverser les valeurs du “par défaut”. L’état de base est le plus écologique, et c’est à l’utilisateur d’indiquer au smartphone quand il veut le modifier, grâce aux paramètres. Régulièrement, la valeur modifiée retournera à son état de “par défaut écologique”."
+            },
+
+            
+            {
+              "type": "texte",
+              "valeur": "Cette piste est volontairement contre-intuitive, voire potentiellement gênante pour l’utilisateur et en contradiction avec la logique actuelle des paramètres. Le design aura donc pour rôle d’éviter les frictions, causées notamment par la potentielle répétitivité du paramétrage, et ce grâce à des méthodes de simplification aux accès des paramètres et en proposant une meilleure compréhension de ceux-ci.\n\nLa dernière entrée, “Construction”, transforme le paramétrage en un jeu de construction où l’utilisateur va recréer le “par défaut” brique par brique. Cette entrée permet à l’utilisateur de voir, comprendre et manipuler l’ensemble des paramètres qui composent son smartphone. Pour continuer sur cette piste, il faudrait s’atteler à un travail graphique de synthétisation et de représentation des paramètres, afin de rendre la construction compréhensible par tous. \n\nLa logique du “par défaut” est une logique qui va à l'encontre de l’apprentissage. L’utilisateur “subit” des valeurs dictées : il ne sait pas réellement de quoi il s’agit et la plupart lui sont inconnues. Réfléchir à propos du “par défaut” est donc un bon moyen de réfléchir à notre rapport au dispositif numérique : proposer une alternative à l’information cachée afin de créer un “par défaut” souhaitable d’un point de vue écologique. Le design serait ainsi un moyen d’accompagner et de rendre désirable un “par-défaut” orienté vers la limitation, la “sous-performance” et l’adaptation."
+            }
+
+           
+
+
+
+          ]
+        },
+
+        {
+          "title": "3.2 Donner un aspect physique au paramètre",
+          "references": [
+            {
+              "valeur":"  On perçoit la dégradation sur le long terme, mais on ne perçoit pas comment un usage trop répétitif de la batterie l'abîme."
+             },
+
+             {
+              "valeur":"Synthèse des fusions des pistes “Des paramètres aux effets perceptibles” et “Déplacer l’endroit (lieu) du paramétrage”. *Limites Numériques*. (2023). Pistes pour un design écologique des paramètres. \n[Lien de la source](https://limitesnumeriques.fr/travaux-productions/design-ecolo-parametres)"
+             },
+             
+             {
+              "valeur":"Exemple d’atelier réalisé par *Limites Numériques* : *Limites Numériques*. (2022) Atelier jeunes : visualiser le poids du numérique. \n[Lien de la source](https://limitesnumeriques.fr/sensibiliser/animation-numerique-responsable/atelier-pour-jeunes)"
+             }
+
+          ],
+          "contenu": [
+
+            {
+              "type": "texte",
+              "valeur": "3.2 Donner un aspect physique au paramètre"
+            },
+
+            {
+              "type": "texte",
+              "valeur": "L’un des principaux problèmes que rencontre la pollution numérique est l’insensibilité. Toutes les étapes les plus polluantes sont loin de nous, décentralisées dans d’autres pays comme c’est le cas pour la production, ou bien invisibilisées, par exemple lors de la dégradation progressive de la batterie++1++. La piste, proposé par *Limites Numériques*++2++, a pour objectif de pallier ce problème en rapportant un aspect physique à la paramétrisation. \n\nLa solution envisagée actuellement serait la création “d’atelier du paramètre écologique”. L’atelier en groupe est une méthode déjà connue et utilisée par *Limites Numériques*++3++ et permet d’inscrire la démarche de paramétrage écologique au sein d’un apprentissage collectif et tangible. A travers différents moyens, expérimentations et manipulations, l’atelier permet d'ancrer l’apprentissage dans un temps précis et concret. "
+            },
+
+            {
+              "type": "image",
+              "valeur": "images/partie_3/p3.2.png",
+              "alt": " Exemple d’une expérience réalisée pendant un atelier sur la visualisation du poids du numérique",
+              "legende": " Fig. 25 : Exemple d’une expérience réalisée pendant un atelier sur la visualisation du poids du numérique. Grâce à des dispositifs physiques, on comprend mieux des éléments qui peuvent sembler immatériels. \n [Lien de la source](https://limitesnumeriques.fr/sensibiliser/animation-numerique-responsable/atelier-pour-jeunes)"
+            },
+
+
+    
+
+            {
+              "type": "image",
+              "valeur": "images/partie_3/p3.3.png",
+              "alt": " Tableau synthétique des pistes “paramètre-physique”, divisé en deux entrées : “Atelier” et “Dépliant”",
+              "legende": " Fig. 26 : Tableau synthétique des pistes “paramètre-physique”, divisé en deux entrées : “Atelier” et “Dépliant”.Réalisation personnelle. \n[Lien de la source](https://www.figma.com/design/1EPcsO9Q2aJuQQTo5Y2H3b/D.S-Pistes-Cr%C3%A9a.?node-id=180-338&t=aIcC5rfW7vvT8td4-1)"
+            },
+
+            {
+              "type": "texte",
+              "valeur": "La première entrée, “Atelier” serait donc la création d’ateliers collectifs pour apprendre, expérimenter et changer ses paramètres afin d’arriver à une pratique écologique du smartphone. La seconde entrée, “Dépliant”, pourrait permettre à ceux qui assistent aux ateliers de garder une trace de ce temps d’atelier afin d’augmenter la longévité et la qualité de l’apprentissage des ateliers. \n\nL’apprentissage en lien direct avec le public est une opportunité pour créer de nouvelles formes et de nouveaux moyens de pédagogie à propos du numérique et de l’écologie. Le rôle du design sera donc de créer des supports pédagogiques afin de faciliter l’enseignement de la pratique de réglage écologique. \n\nÉtant donné que la pratique de paramétrage doit tendre vers une certaine pérennité, il faut aussi penser à différents moyens de continuer la pratique après le moment de l’atelier. C’est pourquoi la piste du “dépliant” (cf. Fig. 26)  est envisagée, afin de pouvoir plus aisément se rappeler de cette période d’atelier. "
+            }
+
+          
+
+          ]
+        },
+
+        {
+          "title": "3.3- Adapter le réglage selon le profil et l’activité",
+          "references": [
+            {
+              "valeur":" CF la partie “Comprendre l’usage des paramètres”, [Lien de la partie](https://julesclaudel.fr)"
+             },
+
+             {
+              "valeur":"Ibid"
+             }
+
+          ],
+          "contenu": [
+
+            {
+              "type": "texte",
+              "valeur": "3.3- Adapter le réglage selon le profil et l’activité"
+            },
+
+            {
+              "type": "texte",
+              "valeur": "Ce dernier axe de recherche est principalement issue des réflexions apportées par la période d’expérimentation. Lors des tests réalisés avec Valentine++1++, elle devait adapter les paramètres de son smartphone selon la période d’activité dans laquelle elle était : chez elle, au travail, pendant une activité de loisir … L’idée était d’adapter les paramètres selon le niveau de puissance nécessaire à la situation dans laquelle elle se trouvait. \n\nLe concept de cette piste est d'adapter le paramétrage selon l’usage de l’utilisateur ou la situation dans lequel il se trouve."
+            },
+
+            {
+              "type": "image",
+              "valeur": "images/partie_3/p3.4.png",
+              "alt": " Tableau synthétique des pistes “paramètre-physique”, divisé en deux entrées : “Atelier” et “Dépliant”",
+              "legende": " Fig. 27 : Tableau synthétique des pistes “profil”, divisé en trois entrées : “Diagnostic”, “Preset d’activité” et “Paramétrisation automatique”. Réalisation personnelle. [Lien de la source](https://www.figma.com/design/1EPcsO9Q2aJuQQTo5Y2H3b/D.S-Pistes-Cr%C3%A9a.?node-id=183-385&t=aIcC5rfW7vvT8td4-0)"
+            },
+
+
+            {
+              "type": "texte",
+              "valeur": "L’entrée “Diagnostic” est une piste qui propose d’analyser les usages de l’utilisateur afin de proposer des pratiques de paramétrage cohérentes avec l’usage. Le but est donc de transformer l’usage en une pratique, en créant des objectifs personnalisés. L’intérêt de cette entrée est de créer une solution calibrée pour l’utilisateur, afin d’être la plus applicable possible. Les enjeux du “diagnostic” sont avant tout des enjeux de cohérence : le design doit donner une unité entre le diagnostic et la réponse apportée. Cette réponse doit être logique et comprise par l’utilisateur afin qu’il souhaite de lui-même changer ses usages et aller vers une pratique. \n\nPrésentée sous le nom “Preset d’activité”, cette entrée permet d’adapter le niveau de performance et de capacité du smartphone selon la période ou l’activité durant laquelle l’utilisateur se trouve. Nous n’avons pas toujours besoin d’un smartphone qui fonctionne à 100% de ses capacités. Cela dépend des circonstances : sommes-nous en train de travailler ? De faire du sport ?"
+            },
+
+            {
+              "type": "texte",
+              "valeur": "La démarche de réglage écologique doit s’adapter à la période ou l’activité dans laquelle l’utilisateur se trouve par une logique de preset, qu’il à lui même réalisé. Cette entrée est donc divisée en deux temps forts : la création du preset, qui est le moment de pédagogie et d’apprentissage technique et environnemental, puis l’application du preset durant la journée. Inspirée des différents modes qui existent déjà sur smartphone (mode Nuit, mode Concentration, mode Avion), cette piste explore le design comme moyen de synthétiser en un seul bouton un ensemble de paramètres qui s’accordent avec un contexte d’usage. \n\nLa dernière entrée, “Paramètre automatique”, est la continuité de la piste “Preset d’activité”, mais cette fois-ci, l’application des preset est automatique. On peut imaginer une synchronisation avec un agenda en ligne, par exemple, ce qui pourrait permettre à l’utilisateur de ne pas se soucier de penser au fait de mettre ses presets. Cette piste est directement issue de l’expérimentation menée avec Valentine++2++, où elle vivait les périodes d’application des paramètres comme une charge mentale supplémentaire. "
+            },
+
+            {
+              "type": "texte",
+              "valeur": "\nCes trois pistes sont des propositions de réponses à la création du paramètre écologique comme nous l’avons défini durant ce travail de recherche. Ces trois axes de recherche sélectionnés avec les chercheurs sont en cours de prototypage. Les premières maquettes ont déjà souligné plusieurs points de vigilance :\n\n - Les solutions doivent, avant tout, être simples d’utilisation et facilement réalisables\n- La temporalité des usages doit être prise en compte\n- Les solutions doivent êtres les plus accessibles possibles\n\nBien que ces idées soient pour l’instant divisées en “pistes” et en “entrées”, la frontière est en réalité bien moins stricte et toutes peuvent se rejoindre pour former un paramètre écologique cohérent avec notre définition. "
+            },
+
+            {
+              "type": "texte",
+              "valeur": "<a href=\"#\" class=\"change-part\">Changer de partie</a>"
+            }
+
+          
+
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "id": "page4",
+      "title": "Conclusion",
+      "parts": [
+
+        {
+        
+          "contenu": [
+
+            {
+              "type": "texte",
+              "valeur": ""
+            },
+
+            {
+              "type": "texte",
+              "valeur": "La pollution numérique est un problème qui persiste, voire s'aggrave ces dernières années. L'invisibilité des systèmes techniques et de leurs impacts s'ajoute à un déficit de culture technique qui permettrait de comprendre les outils et les systèmes que nous utilisons.\n\nDerrière l’aspect “magique” du smartphone, les interfaces tendent vers des objectifs de rapidité, d’efficacité et d'attraction : faire toujours plus beau, plus simple, plus efficace. Cette efficacité fait du réglage une tâche ingrate et fastidieuse, un moyen de brider un dispositif “surpuissant”. Le paramètre peut être un moyen d’action politique, qui vient questionner notre responsabilité vis-a-vis des limites du numérique et de l’empreinte environnementale du smartphone."
+            },
+
+            {
+              "type": "texte",
+              "valeur": "Le smartphone relève encore trop souvent de l’usage et trop rarement de la pratique. Le design pourrait donc être la solution afin de créer et d’instaurer des pratiques de réglage écologique. Il apparaît nécessaire de concevoir des solutions qui synthétisent les enjeux du paramètre écologique : l’apprentissage et l’application de moyens d’action concrets. Le design peut donner une vie et une forme à ce concept.\n\nComme nous avons pu le constater avec les entretiens mais surtout les expériences, le changement doit être compris et désiré pour être applicable. Sinon, il est vécu comme une “violence”, une force non légitime que l’utilisateur va subir. La compréhension des enjeux techniques et environnementaux du smartphone et, plus largement, du numérique est nécessaire pour provoquer une évolution vers des pratiques écologiques. "
+            },
+
+            {
+              "type": "texte",
+              "valeur": "Ces mêmes pratiques doivent initier un nouveau regard à propos de notre utilisation des outils numériques. Notre étude a soulevé l’importance de la mise en place d’une alternative à la vision performative du smartphone. L’adaptation de la puissance de nos machines selon le contexte, la limitation volontaire dans le but de ne pas trop solliciter le cycle de production ou encore le réglage selon ce qui est logique et raisonnable, et non selon ce qui est le plus puissant et performant … Toutes ces notions, qui peuvent sembler propres aux paramètres, peuvent s’exporter de manière plus large et globale, pour changer non pas notre usage du smartphone, mais notre usage des outils techniques et technologiques."
+            },
+
+            {
+              "type": "texte",
+              "valeur": "Avec la collaboration de *Limites Numériques*, la prochaine étape de ce travail de recherche en design sera de développer les différentes pistes imaginées durant le travail de création. Créer, par le design, une version du paramètre écologique la plus respectueuse de sa définition, la plus applicable et la plus impactante, positivement, d’un point de vue écologique. \n\nCe projet de recherche en design montre qu’une évolution est possible et que, par l’apprentissage et l’action, nous pouvons avoir de l’impact sur un système qui peut sembler bien plus grand que nous. Le paramètre écologique est un changement qui, grâce à une pratique collective, peut tendre vers un monde numérique plus responsable. "
+            }
+
+
+
+           
+
+
+
+          ]
+        }
 
       ]
     }

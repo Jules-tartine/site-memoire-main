@@ -1,15 +1,57 @@
 document.addEventListener("DOMContentLoaded", function(){
+    const hash = window.location.hash;
+    const hashParts = hash.split("-");
+    const pageToShow = hashParts[0].substring(1); // On enlève le #
+    const partToShow = hashParts[1]+"-"+hashParts[2]; 
+    let activePage = pageToShow;
+    if(pageToShow) {
+        const page = document.getElementById(pageToShow);
+        if(page) {
+            const pages = document.querySelectorAll(".page");
+            pages.forEach(page => {
+                page.classList.remove("active");
+            });
+            page.classList.add("active");
+            if(partToShow === "") {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+            }else{
+                const part = document.getElementById(`${pageToShow}-${partToShow}`);
+                if(part) {
+                    window.scrollTo({
+                        top:part.offsetTop                    });
+                }
+            }
+            const menuLinks = document.querySelectorAll("#menu-principal a");
+            menuLinks.forEach(link => {
+                link.classList.remove("selected");
+                if(link.getAttribute("data-page") === pageToShow) {
+                    link.classList.add("selected");
+                }
+            });
+        }
+    }
+
+
+
     const menuLinks = document.querySelectorAll("#menu-principal a");
     const pages = document.querySelectorAll(".page");
+
 
     menuLinks.forEach(link => {
         link.addEventListener("click", function(e){
             e.preventDefault();
             const targetPage = this.getAttribute("data-page");
+            activePage = targetPage;
 
-            // Masquer toutes les pages
+            // Masquer toutes les pages + liens sélectionnés
             pages.forEach(page => {
                 page.classList.remove("active");
+            });
+            menuLinks.forEach(link => {
+                link.classList.remove("selected");
             });
 
             // Afficher la page cible
@@ -21,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function(){
                     behavior: "smooth"
                 });
             }
+            this.classList.add("selected");
         });
     });
 
@@ -60,32 +103,6 @@ document.addEventListener("DOMContentLoaded", function(){
             liElements.forEach(li => li.classList.remove("is-gris"));
         });
     });
-});
-
-
-document.addEventListener("DOMContentLoaded", function() {
-    const menuLinks = document.querySelectorAll("#menu-principal a");
-    const pages = document.querySelectorAll(".page");
-    const partTitles = document.querySelectorAll(".part-title");
-    const parts = document.querySelectorAll(".part");
-
-    // Gestion du menu principal (Changement de page)
-    menuLinks.forEach(link => {
-        link.addEventListener("click", function(e) {
-            e.preventDefault();
-            const targetPage = this.getAttribute("data-page");
-
-            // Masquer toutes les pages
-            pages.forEach(page => page.classList.remove("active"));
-
-            // Afficher la page cible
-            const pageToShow = document.getElementById(targetPage);
-            if (pageToShow) {
-                pageToShow.classList.add("active");
-            }
-        });
-    });
-
 });
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -133,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const sY = window.scrollY;
             fullscreenFigure.style.top = sY +'px';
             //
-            document.body.style.add('overflow-y','hidden');
+            body.classList.add('no-scroll');
         })
 })
 
@@ -142,28 +159,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
-const images  = document.querySelectorAll('figure img');
-
-
-images.forEach(image => {
-    image.addEventListener('click',function(e){
-        e.preventDefault();
-        const imgUrl = image.getAttribute('src');
-        const fullscreenFigure = document.getElementById('fullscreen');
-        fullscreenFigure.addEventListener('click',function(){
-            fullscreenFigure.classList.remove('is-visible');
-        });
-        const fullscreenImage = fullscreenFigure.querySelector("img");
-        fullscreenImage.setAttribute('src',imgUrl)
-        //
-        fullscreenFigure.classList.add('is-visible');
-        const sY = window.scrollY;
-        fullscreenFigure.style.top = sY +'px';
-        //
-        document.body.style.add('overflow-y','hidden');
-    })
-})
 
 document.addEventListener("DOMContentLoaded", function() {
     const changePartBtns = document.querySelectorAll('.change-part');

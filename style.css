@@ -219,8 +219,9 @@ figcaption {
     z-index: 999 !important;
 }
 
-.noscroll{
-    overflow-y: hidden !important;
+.no-scroll{
+    height: 100%;
+    overflow: hidden;
 }
 
 p{

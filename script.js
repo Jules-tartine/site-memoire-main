@@ -21,7 +21,8 @@ document.addEventListener("DOMContentLoaded", function(){
                 const part = document.getElementById(`${pageToShow}-${partToShow}`);
                 if(part) {
                     window.scrollTo({
-                        top:part.offsetTop                    });
+                        top:part.offsetTop                    
+                    });
                 }
             }
             const menuLinks = document.querySelectorAll("#menu-principal a");
@@ -142,6 +143,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const fullscreenFigure = document.getElementById('fullscreen');
             fullscreenFigure.addEventListener('click',function(){
                 fullscreenFigure.classList.remove('is-visible');
+                body.classList.remove('no-scroll');
             });
             const fullscreenImage = fullscreenFigure.querySelector("img");
             fullscreenImage.setAttribute('src',imgUrl)
